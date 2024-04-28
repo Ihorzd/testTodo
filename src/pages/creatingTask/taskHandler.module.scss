@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+
+  .backBtn {
+    margin: 20px auto 20px 0px;
+  }
+
+  .pageTitle {
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .creatingCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 16px;
+    max-width: 980px;
+    min-width: 500px;
+    margin: 40px auto;
+    text-align: left;
+
+    .description {
+      padding: 5px;
+    }
+  }
+}

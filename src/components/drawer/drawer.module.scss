@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+
+  .sideMenu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
