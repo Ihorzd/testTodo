@@ -39,7 +39,7 @@ const CreatingTask = () => {
         <textarea
           className={styles.description}
           {...register('description')}
-          placeholder="Description"
+          placeholder="Опис завдання"
         />
         <Typography color={'error'}>{errors.description?.message}</Typography>
         <InputLabel id="priority-label">Пріоритет</InputLabel>
